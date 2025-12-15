@@ -1,0 +1,7 @@
+# Resume source files (keep local, don't publish)
+*.docx
+
+# Intermediate markdown exports from resume conversion
+cloud_architect.md
+cloud_engineer.md
+db_engineer.md
