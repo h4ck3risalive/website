@@ -53,75 +53,24 @@ section h2 {
     padding-bottom: 10px;
 }
 
-.timeline {
+.experience-list {
     margin-top: 10px;
 }
 
-.timeline-item {
-    display: flex;
-    gap: 18px;
-    padding: 10px 0;
+.experience-item {
+    padding: 12px 0;
 }
 
-.timeline-item:first-child {
-    padding-top: 0;
-}
-
-.timeline-item + .timeline-item {
+.experience-item + .experience-item {
     border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-.timeline-year {
-    flex: 0 0 120px;
-    color: rgba(0, 0, 0, 0.65);
-    font-variant-numeric: tabular-nums;
-    font-size: 0.95em;
-    line-height: 1.4;
+.experience-heading {
+    margin: 0 0 6px 0;
 }
 
-.timeline-body {
-    flex: 1;
-}
-
-.timeline-title-row {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 12px;
-    margin-bottom: 4px;
-}
-
-.timeline-title {
-    font-weight: 700;
-    color: #000000;
-}
-
-.timeline-badge {
-    flex: 0 0 auto;
-    font-size: 0.85em;
-    line-height: 1;
-    padding: 6px 10px;
-    border-radius: 999px;
-    background-color: #f0f8ff;
-    color: #00008b;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    white-space: nowrap;
-}
-
-.timeline-desc {
+.experience-bullets {
     margin: 0;
-    color: rgba(0, 0, 0, 0.9);
-}
-
-@media (max-width: 640px) {
-    .timeline-item {
-        flex-direction: column;
-        gap: 6px;
-    }
-
-    .timeline-year {
-        flex: initial;
-    }
 }
 
 ul {
