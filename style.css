@@ -53,12 +53,56 @@ section h2 {
     padding-bottom: 10px;
 }
 
-.timeline .entry {
-    margin-bottom: 20px;
+.timeline {
+    margin-top: 10px;
 }
 
-.timeline h3 {
-    color: #00008b;
+.timeline-item {
+    display: flex;
+    gap: 18px;
+    padding: 10px 0;
+}
+
+.timeline-item:first-child {
+    padding-top: 0;
+}
+
+.timeline-item + .timeline-item {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.timeline-year {
+    flex: 0 0 120px;
+    color: rgba(0, 0, 0, 0.65);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.95em;
+    line-height: 1.4;
+}
+
+.timeline-body {
+    flex: 1;
+}
+
+.timeline-title {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.timeline-desc {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+@media (max-width: 640px) {
+    .timeline-item {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .timeline-year {
+        flex: initial;
+    }
 }
 
 ul {
