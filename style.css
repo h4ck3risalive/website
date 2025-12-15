@@ -83,10 +83,29 @@ section h2 {
     flex: 1;
 }
 
+.timeline-title-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 4px;
+}
+
 .timeline-title {
     font-weight: 700;
     color: #000000;
-    margin-bottom: 4px;
+}
+
+.timeline-badge {
+    flex: 0 0 auto;
+    font-size: 0.85em;
+    line-height: 1;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background-color: #f0f8ff;
+    color: #00008b;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    white-space: nowrap;
 }
 
 .timeline-desc {
